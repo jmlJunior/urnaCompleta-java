@@ -21,20 +21,20 @@ public class ThreadVoltar extends Thread {
     JTextField dezena = painelPrimario.dezena;
     JTextField unidade = painelPrimario.unidade;
 	
-	public String name;
-	public int tempo;
+    public String name;
+    public int tempo;
 
-	public ThreadVoltar(String name, int tempo) {
-		this.name = name;
-		this.tempo = tempo;
+    public ThreadVoltar(String name, int tempo) {
+	this.name = name;
+	this.tempo = tempo;
 		
-	}
+    }
 	
-	public void run() {
-		try {	        	
-        	Thread.sleep(tempo);	    		   
-        	tabbedPane.setEnabledAt(1, false);
-        	tabbedPane.setSelectedIndex(0);
+    public void run() {
+	    try {	        	
+            Thread.sleep(tempo);	    		   
+            tabbedPane.setEnabledAt(1, false);
+            tabbedPane.setSelectedIndex(0);
             infoNumero.setText("");
             passwordField.setText("");
             infoNumero.requestFocus();
@@ -48,5 +48,5 @@ public class ThreadVoltar extends Thread {
         } catch (Exception e) {
         	e.printStackTrace();
         }
-	}
+    }
 }
