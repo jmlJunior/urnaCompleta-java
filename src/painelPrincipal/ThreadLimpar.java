@@ -27,7 +27,7 @@ public class ThreadLimpar extends Thread {
 	
 	public void run() {
 	    Image img = new ImageIcon(this.getClass().getResource("")).getImage()
-                                                 .getScaledInstance(120, 160, Image.SCALE_SMOOTH);
+                                                     .getScaledInstance(120, 160, Image.SCALE_SMOOTH);
 	    candidato.setIcon(new ImageIcon(img));
 	    vice.setIcon(new ImageIcon(img));
 	    candidato.setText("FIM");
