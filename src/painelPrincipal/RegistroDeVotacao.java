@@ -4,9 +4,9 @@ public class RegistroDeVotacao {
 	
 	public static void contVotos() {
 		
-		int 
-		    ciroGomes = painelPrimario.ciroGomes,
-		    Lula = painelPrimario.Lula,
+	int 
+            ciroGomes = painelPrimario.ciroGomes,
+            Lula = painelPrimario.Lula,
             robertoJefferson = painelPrimario.robertoJefferson,
             simoneTebet = painelPrimario.simoneTebet,
             Vera = painelPrimario.Vera,
@@ -18,8 +18,8 @@ public class RegistroDeVotacao {
             leoPericles = painelPrimario.leoPericles,
             pabloMarcal = painelPrimario.pabloMarcal,
             votoNulo = painelPrimario.votoNulo,
-		    blanck = painelPrimario.blanck,
-	        nVotos = painelPrimario.confirm;
+            blanck = painelPrimario.blanck,
+	    nVotos = painelPrimario.confirm;
 		
 		System.out.println(
 				"Total de Votos: " + nVotos
@@ -32,9 +32,9 @@ public class RegistroDeVotacao {
 				+ "\n22 - JAIR BOLSONARO (PL) = " + jairBolsonaro
 				+ "\n27 - CONSTITUINTE EYMAEL (DC) = " + Eymael
 				+ "\n30 - FELIPE D'AVILA (NOVO) = " + Davila
-				+ "\n44 - SORAYA THRONICKE (UNIÃO) = " + sorayaThronicke
-				+ "\n80 - LÉO PÉRICLES (UP) = " + leoPericles
-				+ "\n90 - PABLO MARÇAL (PROS) = " + pabloMarcal
+				+ "\n44 - SORAYA THRONICKE (UNIÃƒO) = " + sorayaThronicke
+				+ "\n80 - LÃ‰O PÃ‰RICLES (UP) = " + leoPericles
+				+ "\n90 - PABLO MARÃ‡AL (PROS) = " + pabloMarcal
 				+ "\nVotos BRANCOS = " + blanck
 				+ "\nVotos NULOS = " + votoNulo
 				+ "\n\n"
