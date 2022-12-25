@@ -10,7 +10,7 @@ public class ThreadLimpar extends Thread {
 	
     String dn = painelPrimario.dn;
     String un = painelPrimario.un;
-	JLabel candidato = painelPrimario.candidato;
+    JLabel candidato = painelPrimario.candidato;
     JLabel vice = painelPrimario.vice;
     JLabel vcand = painelPrimario.vcand;
     JLabel choice = painelPrimario.choice;
@@ -32,14 +32,14 @@ public class ThreadLimpar extends Thread {
 	    vice.setIcon(new ImageIcon(img));
 	    candidato.setText("FIM");
 	    vcand.setText("");
-        choice.setText("");
-        partido.setText("");
-        dezena.setEditable(false);
-        unidade.setEditable(false);
-        dezena.setText("");
-        unidade.setText("");
-		dn = "";
-		un = "";
-        confirmacao.setText("VOTOU");   
+            choice.setText("");
+            partido.setText("");
+            dezena.setEditable(false);
+            unidade.setEditable(false);
+            dezena.setText("");
+            unidade.setText("");
+	    dn = "";
+	    un = "";
+            confirmacao.setText("VOTOU");   
 	}
 }
